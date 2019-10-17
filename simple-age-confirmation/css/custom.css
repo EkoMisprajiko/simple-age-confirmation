@@ -1,0 +1,146 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+
+@media only screen and (max-width: 767px){
+    .age-gate .content {
+        width: 100% !important;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .age-gate .button-confirm, .age-gate .or, .age-gate .button-exit {
+        display: block;
+        text-align: center;
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .age-gate .or {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+.age-gate .disclaimer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+}
+
+.age-gate {
+    display:none;
+    position: fixed;
+    z-index: 9999999999;
+    width: 100%;
+    height: 110%;
+    background: white;
+    opacity: 0.95;
+    background-image: radial-gradient(49% 107%, #fff 44%, #edf9ff 100%);
+    overflow-y: scroll;
+    box-sizing: border-box;
+    padding-bottom: 80px;
+    font-family: "azo-sans-web",sans-serif;
+    color: #333;
+    margin-top: -58px;
+}
+.age-gate .content {
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 530px;
+}
+
+.age-gate .content .heading {
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1.66px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.age-gate .button-confirm {
+    display: inline-block;
+    width: 250px;
+    background: #3578fa;
+    background: -moz-linear-gradient(top, #3578fa 0%, #2670ff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3578fa), color-stop(100%, #2670ff));
+    background: -webkit-linear-gradient(top, #3578fa 0%, #2670ff 100%);
+    background: -o-linear-gradient(top, #3578fa 0%, #2670ff 100%);
+    background: -ms-linear-gradient(top, #3578fa 0%, #2670ff 100%);
+    background: linear-gradient(to bottom, #3578fa 0%, #2670ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$flavor-background', endColorstr='#7db9e8',GradientType=0 );
+    border-radius: 5px;
+    font-family: "azo-sans-web",sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 1px #3578fa;
+    text-decoration: none;
+    padding: 15px 30px;
+    border: 0;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    cursor: pointer
+}
+
+.age-gate .or {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.age-gate .button-exit {
+    display: inline-block;
+    font-family: "azo-sans-web",sans-serif;
+    padding: 14px 30px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(66,77,84,0.5);
+    box-shadow: none;
+    border: 1px solid rgba(66,77,84,0.3);
+    letter-spacing: 0.4px;
+    border-radius: 5px;
+}
+.age-gate .button-exit a {
+    color: rgba(66,77,84,0.5);
+    text-shadow: 0px 0px 1px #3578fa;
+}
+
+.age-gate .disclaimer {
+    display: block;
+    font-family: "azo-sans-web",sans-serif;
+    font-size: 14px;
+    color: rgba(0,0,0,0.6);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    line-height: 1.5;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.age-gate .confirm {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.age-gate-body {
+    display:block !important;
+}
+
+.hidden-overflow {
+    overflow:hidden !important;
+}
+
